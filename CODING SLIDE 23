@@ -19,3 +19,25 @@ class Slide23 {
 	}
 
 }
+
+package selfProgramming;
+
+class Slide23 {
+
+	public static void main(String[] args) {
+		double amount = 300.00;
+		double balance = 200.50;
+		double overdraftPenalty = 0;
+		
+		if(amount <= balance) {
+			balance = balance - amount;
+			System.out.println("Acct new balance = " + balance);
+		}
+		else {
+			balance = balance - overdraftPenalty;
+			System.out.println("TRANSACTION NOT ALLOWED");
+		}
+
+	}
+
+}
