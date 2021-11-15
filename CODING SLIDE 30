@@ -28,6 +28,10 @@ class Slide30 {
 		{
 			grade = 'D';
 		}
+		else if ( mark >= 50 )
+		{
+			grade = 'E';
+		}
 		else 
 		{
 			grade = 'F';
@@ -35,7 +39,7 @@ class Slide30 {
 		
 		System.out.println("Your grade is : " + grade);
 		
-		if(mark >= 60)
+		if(mark >= 50)
 		{
 			System.out.println("PASS");
 		}
