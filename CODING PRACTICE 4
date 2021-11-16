@@ -1,0 +1,85 @@
+package selfProgramming;
+import java.util.Scanner;
+class Practice4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String subj1, subj2;
+		int mark1,mark2;
+		double avg;
+		char grade;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter subject 1 : ");
+		subj1=sc.next();
+		System.out.println("Enter your mark : ");
+		mark1=sc.nextInt();
+		
+		System.out.println("Enter subject 2 : ");
+		subj2=sc.next();
+		System.out.println("Enter your mark : ");
+		mark2=sc.nextInt();
+		
+		if(mark1>mark2)
+		{
+			System.out.println(subj1 + " is greater than " + subj2);
+		}
+		else
+		{
+			System.out.println(subj2 + " is greater than " + subj1 );
+		}
+		
+		
+		if(mark1 >= 50)
+		{
+			System.out.println(subj1 + " : PASS ");
+		}
+		else 
+		{
+			System.out.println(subj1 + " : FAILED ");
+		}
+		
+		if(mark2 >= 50)
+		{
+			System.out.println(subj2 + " : PASS ");
+		}
+		else 
+		{
+			System.out.println(subj2 + " : FAILED ");
+		}
+		
+		
+		avg= (mark1 + mark2)/2;
+		System.out.println("Marks average is " + avg);
+		
+		if ( avg >= 80 )
+		{
+			grade = 'A';
+		}
+		else if ( (avg >= 60) && (avg <80) )
+		{
+			grade = 'B';
+		}
+		else if ( (avg >= 50) && (avg <60) )
+		{
+			grade = 'C';
+		}
+		else 
+		{
+			grade = 'D';
+		}
+		
+		System.out.println("Grade : " + grade);
+		
+		if((grade=='A') || (grade=='B') || (grade=='C'))
+		{
+			System.out.println("PASS");
+		}
+		else
+		{
+			System.out.println("FAILED");
+		}
+   
+	}
+
+}
