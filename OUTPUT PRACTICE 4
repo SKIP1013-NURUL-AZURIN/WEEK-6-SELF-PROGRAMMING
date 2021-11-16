@@ -1,0 +1,14 @@
+Enter subject 1 : 
+MATHS
+Enter your mark : 
+76
+Enter subject 2 : 
+CHEMISTRY
+Enter your mark : 
+49
+MATHS is greater than CHEMISTRY
+MATHS : PASS 
+CHEMISTRY : FAILED 
+Marks average is 62.0
+Grade : B
+PASS
