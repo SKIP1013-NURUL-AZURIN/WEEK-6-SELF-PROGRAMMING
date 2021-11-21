@@ -1,0 +1,27 @@
+Enter percentage marks : 
+97
+Excellent : Grade A
+
+Enter percentage marks : 
+81
+Very Good : Grade B
+
+Enter percentage marks : 
+78
+Good : Grade C
+
+Enter percentage marks : 
+64
+Good : Grade D
+
+Enter percentage marks : 
+55
+Good : Grade E
+
+Enter percentage marks : 
+49
+Just Passed : Grade F
+
+Enter percentage marks : 
+32
+Failed!
