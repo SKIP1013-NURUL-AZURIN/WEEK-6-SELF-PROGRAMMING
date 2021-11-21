@@ -1,0 +1,32 @@
+package selfProgramming;
+import java.util.Scanner;
+class Practice5 {
+
+	public static void main(String[] args) {
+		int num;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter integer number : ");
+		num = sc.nextInt();
+		
+		if(num==10)
+		{
+			System.out.println("Number is " + num);
+		}
+		else if(num==20)
+		{
+			System.out.println("Number is " + num);
+		}
+		else if(num==30)
+		{
+			System.out.println("Number is " + num);
+		}
+		else
+		{
+			System.out.println("Invalid number.");
+		}
+
+	}
+
+}
